@@ -1,0 +1,40 @@
+{
+  "name": "smart-code-merger-pro",
+  "version": "2.0.0",
+  "description": "מודול מתקדם לאיחוד ובדיקת קוד חכם",
+  "author": "shayAI",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node ui/server.js",
+    "dev": "nodemon ui/server.js",
+    "build": "webpack --config webpack.config.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "chart.js": "^3.7.0",
+    "d3": "^7.0.0",
+    "express": "^4.18.2",
+    "highlight.js": "^11.4.0",
+    "jquery": "^3.6.0",
+    "lodash": "^4.17.21",
+    "vis-network": "^9.1.2",
+    "vis-data": "^7.1.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/preset-env": "^7.16.7",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.5.1",
+    "jest": "^27.4.7",
+    "mini-css-extract-plugin": "^2.5.2",
+    "nodemon": "^2.0.15",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
